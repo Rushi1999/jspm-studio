@@ -89,12 +89,21 @@
 									<div class="col-md-4">
 										<section class="find-course find-course_mod-a wow " data-wow-duration="2s">
 											<h2 class="find-course__title"><i class="icon stroke icon-Search"></i>SEARCH FOR MCQ & NOTES</h2>
-											<form class="find-course__form" action="NotesSearch.php" method="GET">
+
+											<form class="find-course__form" action="NotesSearch.php" method="GET" >
 												<div class="form-group">
+
 													<?php if(isset($_GET[ 'error'])) { ?>
 													<div class="alert alert-danger"> <strong>No query!</strong> Please type in a query to search. </div>
 													<?php } ?>
-													<input class="form-control notesearch" type="text" name="query" placeholder="Notes or Mcq">
+
+													<!-- <input class="form-control notesearch" type="text" name="query" placeholder="Notes or Mcq"> -->
+													
+													<select name="branch" class="form-control notesearch">
+														<option value="coe">NOTES</option>
+														<option value="it">MCQ</option>
+													</select>
+
 													<select name="branch" class="form-control notesearch">
 														<option value="coe">COMP</option>
 														<option value="it">IT</option>
@@ -102,8 +111,8 @@
 														<option value="ice">EEE</option>
 														<option value="mpae">MECH</option>
 														<option value="mpae">FE</option>
-
 													</select>
+
 													<select name="sem" class="form-control notesearch">
 														<option value="1">1st Semester</option>
 														<option value="2">2nd Semester</option>
@@ -121,6 +130,8 @@
 											</form>
 										</section>
 									</div>
+
+									
 								</div>
 							</div>
 						</div>
@@ -160,6 +171,6 @@
 						</div>
 					</section>
 				</div>
-				<?php include ( "assets/footer.php");?> </body>
-
+				<?php include ( "assets/footer.php");?> 
+		</body>
 </html>
