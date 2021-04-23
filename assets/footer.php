@@ -28,7 +28,7 @@ In short - We aim to make the life of every JSPMian simpler & turn these four ye
 					  <li class="footer-list__item"><a class="footer-list__link" href="update/category/notices/">Notices</a></li>
 					  <li class="footer-list__item"><a class="footer-list__link" href="update/category/datesheets/">Datesheets</a></li>
 					  <li class="footer-list__item"><a class="footer-list__link" href="update/category/results/">Results</a></li>
-					  <li class="footer-list__item"><a class="footer-list__link" href="update/category/notes/">Notes</a></li>
+					  <li class="footer-list__item"><a class="footer-list__link" href="update/Notes.php">Notes</a></li>
 					  <li class="footer-list__item"><a class="footer-list__link" href="update/category/exampapers/">Exam Papers</a></li>
 					  <li class="footer-list__item"><a class="footer-list__link" href="update/category/syllabus/">Syllabus</a></li>
 					  <li class="footer-list__item"><a class="footer-list__link" href="update/category/disclaimer/">Disclaimer</a></li>

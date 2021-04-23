@@ -7,7 +7,7 @@
 			<li class="dropdown"><a href="index.php">Home<span class="nav-subtitle">OUR World</span></a></li>
 			<li class="dropdown"> <a href="team.php">Our Team<span class="nav-subtitle">Meet us!</span></a></li>
 			<li class="dropdown"> <a href="http://www.jspm.edu.in/" target="_blank">Jspmpedia<span class="nav-subtitle">our personal blog</span></a></li>
-			<li class="dropdown"> <a href="CollegeSpace/index.php" target="_blank">Updates<span class="nav-subtitle">Our News Land</span></a></li>
+			<li class="dropdown"> <a href="update/index.php" target="_blank">Updates<span class="nav-subtitle">Our News Land</span></a></li>
 			<li><a href="contact.php">CONTACT<span class="nav-subtitle">say us hi</span></a></li>
 		</ul>
 	</div>

@@ -127,14 +127,6 @@
 										</div>
 									</div>
 								</div>
-
-								
-
-								<!-- contentw alumini -->
-
-
-
-								 
 																
 								<div class="col-xs-6 col-sm-4 col-md-3  portfolio-item hide contentw ">
 									<div class="portfolio-wrapper">
@@ -229,7 +221,7 @@
 									</div>
 								</div>
 							</div>
-							<!-- <script>
+							<script>
 								var modal23 = document.getElementById('myModal23');
 								
 								var btn23 = document.getElementById("myBtn23");
@@ -249,7 +241,8 @@
 										modal23.style.display = "none";
 									}
 								}
-							</script> -->
+							</script>
+
 							<div id="myModal3" class="modal" style="z-index:100;">
 								<!-- Modal content -->
 								<div class="modal-content">
@@ -333,48 +326,7 @@
 								}
 							</script>
 							
-							<!-- <div id="myModal49" class="modal" style="z-index:100;">
 							
-								<div class="modal-content">
-									<div class="modal-header"> <span class="close 49">×</span>
-										<div class="img"></div><img class="img-responsive" src="assets/img/team/rachana.jpg" height="100" width="100" alt="foto" align="middle">
-										<h2> Rachana </h2> </div>
-									<div class="modal-body">
-										<p><b> WEB DEVELOPER </b>
-										</p>
-										<p> Copy & paste is a design error; then thinking the code is done by u is a psychological disorder ; I'm trying to get rid of it!</p>
-									</div>
-									<div class="modal-footer">
-										<ul class="social-links list-unstyled">
-										<li>
-										<a class="icon fa fa-linkedin" href="#"></a>
-										</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<script>
-								var modal49 = document.getElementById('myModal49');
-							
-								var btn49 = document.getElementById("myBtn49");
-								
-								var span49 = document.getElementsByClassName("49")[0];
-								
-								btn49.onclick = function() {
-										modal49.style.display = "block";
-									}
-								
-								span49.onclick = function() {
-										modal49.style.display = "none";
-									}
-									
-								window.onclick = function(event) {
-									if (event.target == modal49) {
-										modal49.style.display = "none";
-									}
-								}
-							</script>
-							 -->
 							<div id="myModal9" class="modal" style="z-index:100;">
 								
 								<div class="modal-content">
