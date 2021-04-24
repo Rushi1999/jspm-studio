@@ -73,8 +73,8 @@
 								<a href="Notes.php">	<h4 class=" decor decor_mod-a">Notes</h4></a</a>	
 								</th>
 								<th width="100">
-								<a href="Sysllabus.php">
-									<h4 class=" decor decor_mod-a">Sysllabus</h4></a>	
+								<a href="mcq.php">
+									<h4 class=" decor decor_mod-a">MCQ</h4></a>	
 								</th>
 							</tr>
 							<tr>
@@ -83,11 +83,36 @@
 								</td>
 								<td width="100">
 									
+								<p>	Find the UGC mcq of all the subjects</p>
+								</td>
+							</tr>
+							</table>
+					</tr>
+
+					<tr>
+						<table   cellpadding="5" width="100%">
+							<tr>
+								<th width="100">
+								<a href="contactus.php">	<h4 class=" decor decor_mod-a">Department Contact</h4></a</a>	
+								</th>
+								<th width="100">
+								<a href="Sysllabus.php">
+									<h4 class=" decor decor_mod-a">Sysllabus</h4></a>	
+								</th>
+							</tr>
+							<tr>
+								<td width="100">
+									check department head details.
+								</td>
+								<td width="100">
+									
 								<p>	Find the UGC sysllabus of all the subjects</p>
 								</td>
 							</tr>
 							</table>
 					</tr>
+
+					
 					<tr>
 						<table class="mt-5" cellpadding="5"	 width="100%">
 							<tr>
