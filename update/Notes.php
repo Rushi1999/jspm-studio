@@ -19,6 +19,10 @@
 .center-update{
 	padding-top: 10rem !important;
 }
+.sem{
+	cursor: pointer;
+	color:coral;
+}
 </style>
 <body>
 	<?php
@@ -32,100 +36,176 @@
 				<p>Handed picked notes from teachers and students from respected collages and Universities</p>
 				
 			</div>
-		<div class="col-md-6">
-			<table class="mt-3 table-responsive">
-				<tr>
-					<th width="100" >
-						<div class="card p-3 m-1" style="height: 100px !important">
-						<center> <a href="notesdb/ai.php">
-						<h4 class=" decor decor_mod-a">	Artifical Intelligance</h4></a></center>
-					</div>
-					</th>
-					<th width="100" height="100">
-						<div class="card p-3 m-1" style="height: 100px !important">
-						<center><a href="notesdb/nlp.php">
-						<h4 class=" decor decor_mod-a">	Neural language</h4></a></center>
-					</div>
-					</th>
-					<th width="100" height="100">
-						<div class="card p-3 m-1" style="height: 100px !important">
-						<center><a href="">
-						<h4 class=" decor decor_mod-a">C</h4></a></center>
-					</div>
-					</th>
-					<th width="100" height="100">
-						<div class="card p-3 m-1" style="height: 100px !important">
-						<center><a href="">
-						<h4 class=" decor decor_mod-a">C++</h4></a></center>
-					</div>
-					</th>
-					<th width="100" height="100">
-						<div class="card p-3 m-1" style="height: 100px !important">
-						<center><a href="">
-						<h4 class=" decor decor_mod-a">C++</h4></a></center>
-					</div>
-					</th>
-				</tr>
-				<tr>
-					<th width="100" >
-						<div class="card p-3 m-1" style="height: 100px !important">
-						<center> <a href="">
-						<h4 class=" decor decor_mod-a">Java</h4></a></center>
-					</div>
-					</th>
-					<th width="100" height="100">
-						<div class="card p-3" style="height: 100px !important">
-						<center><a href="">
-						<h4 class=" decor decor_mod-a">	Networking</h4></a></center>
-					</div>
-					</th>
-					<th width="100" height="100">
-						<div class="card p-3 m-1" style="height: 100px !important">
-						<center><a href="">
-						<h4 class=" decor decor_mod-a">DBMS</h4></a></center>
-					</div>
-					</th>
-					<th width="100" height="100">
-						<div class="card p-3 m-1" style="height: 100px !important">
-						<center><a href="">
-						<h4 class=" decor decor_mod-a">	Data Structure</h4></a></center>
-					</div>
-					</th>
-				</tr>	
-				<tr>
-					<th width="100" >
-						<div class="card p-3 m-1" style="height: 100px !important">
-						<center> <a href="">
-						<h4 class=" decor decor_mod-a">Cloud Computing</h4></a></center>
-					</div>
-					</th>
-					<th width="100" height="100">
-						<div class="card p-3" style="height: 100px !important">
-						<center><a href="">
-						<h4 class=" decor decor_mod-a">	Mathematics</h4></a></center>
-					</div>
-					</th>
-					<th width="100" height="100">
-						<div class="card p-3 m-1" style="height: 100px !important">
-						<center><a href="">
-						<h4 class=" decor decor_mod-a">	Theory of Computation</h4></a></center>
-					</div>
-					</th>
-					<th width="100" height="100">
-						<div class="card p- m-1" style="height: 100px !important">
-						<center><a href="">
-						<h4 class=" decor decor_mod-a">	Physics</h4></a></center>
-					</div>
-					</th>
-				</tr>	
+		<!-- <div class="col-md-6"> -->
+		
+		<table class="table table-bordered" style="width: 100%;">
+  <thead>
+    <tr>
+      <th scope="col">Department</th>
+      <th scope="col">Sem2</th>
+      <th scope="col">Sem4</th>
+	  <th scope="col">Sem6</th>
+	  <th scope="col">Sem8</th>
+	  <!-- <th scope="col">Sem5</th>
+	  <th scope="col">Sem6</th>
+	  <th scope="col">Sem7</th>
+	  <th scope="col">Sem8</th> -->
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">COMP</th>
+      <td  class="sem" href=""> <a href="https://drive.google.com/drive/folders/1k9n8Tvr57u-24A-10yG2aNtSKiWYxUdP?usp=sharing">Sem2</a></td>
+      <td  class="sem" href="">  <a href="">Sem4</a></td>
+	  <td class="sem" href=""><a href="">Sem6</a></td>
+	  <td class="sem" href="">  <a href="">Sem8</a></td>
+      <!-- <td class="sem" href="">  <a href="">Sem5</a></td>
+	  <td class="sem" href="">  <a href="">Sem6</a></td>
+	  <td class="sem" href="">  <a href="">Sem7</a></td>
+      <td class="sem" href="">  <a href="">Sem8</a></td> -->
+   
+    </tr>
+    <tr>
+      <th scope="row">IT</th>
+	  <td  class="sem" href=""> <a href="https://drive.google.com/drive/folders/1k9n8Tvr57u-24A-10yG2aNtSKiWYxUdP?usp=sharing">Sem2</a></td>
+      <td  class="sem" href="">  <a href="">Sem4</a></td>
+	  <td class="sem" href=""><a href="">Sem6</a></td>
+	  <td class="sem" href="">  <a href="">Sem8</a></td>
+      <!-- <td class="sem" href="">  <a href="">Sem5</a></td>
+	  <td class="sem" href="">  <a href="">Sem6</a></td>
+	  <td class="sem" href="">  <a href="">Sem7</a></td>
+      <td class="sem" href="">  <a href="">Sem8</a></td> -->
+   
+    </tr>
+    <tr>
+      <th scope="row">EEE</th>
+      <!-- <td colspan="2">Larry the Bird</td> -->
+	  <td  class="sem" href=""> <a href="https://drive.google.com/drive/folders/1k9n8Tvr57u-24A-10yG2aNtSKiWYxUdP?usp=sharing">Sem2</a></td>
+      <td  class="sem" href="">  <a href="">Sem4</a></td>
+	  <td class="sem" href=""><a href="">Sem6</a></td>
+	  <td class="sem" href="">  <a href="">Sem8</a></td>
+      <!-- <td class="sem" href="">  <a href="">Sem5</a></td>
+	  <td class="sem" href="">  <a href="">Sem6</a></td>
+	  <td class="sem" href="">  <a href="">Sem7</a></td>
+      <td class="sem" href="">  <a href="">Sem8</a></td> -->
+   
+	</tr>
+	<tr>
+      <th scope="row">E&TC</th>
+	  <td  class="sem" href=""> <a href="https://drive.google.com/drive/folders/1k9n8Tvr57u-24A-10yG2aNtSKiWYxUdP?usp=sharing">Sem2</a></td>
+      <td  class="sem" href="">  <a href="">Sem4</a></td>
+	  <td class="sem" href=""><a href="">Sem6</a></td>
+	  <td class="sem" href="">  <a href="">Sem8</a></td>
+      <!-- <td class="sem" href="">  <a href="">Sem5</a></td>
+	  <td class="sem" href="">  <a href="">Sem6</a></td>
+	  <td class="sem" href="">  <a href="">Sem7</a></td>
+      <td class="sem" href="">  <a href="">Sem8</a></td> -->
+   
+    </tr>
+    <tr>
+      <th scope="row">MECH</th>
+	  <td  class="sem" href=""> <a href="https://drive.google.com/drive/folders/1k9n8Tvr57u-24A-10yG2aNtSKiWYxUdP?usp=sharing">Sem2</a></td>
+      <td  class="sem" href="">  <a href="">Sem4</a></td>
+	  <td class="sem" href=""><a href="">Sem6</a></td>
+	  <td class="sem" href="">  <a href="">Sem8</a></td>
+      <!-- <td class="sem" href="">  <a href="">Sem5</a></td>
+	  <td class="sem" href="">  <a href="">Sem6</a></td>
+	  <td class="sem" href="">  <a href="">Sem7</a></td>
+      <td class="sem" href="">  <a href="">Sem8</a></td> -->
+   
+    </tr>
+    
+  </tbody>
+</table>
 
+<div>
+	<h3>Odd sem</h3>
+</div>
 
-			</table>
+<table class="table table-bordered" style="width: 100%;">
+  <thead>
+    <tr>
+      <th scope="col">Department</th>
+      <th scope="col">Sem1</th>
+      <th scope="col">Sem3</th>
+	  <th scope="col">Sem5</th>
+	  <th scope="col">Sem7</th>
+	  <!-- <th scope="col">Sem5</th>
+	  <th scope="col">Sem6</th>
+	  <th scope="col">Sem7</th>
+	  <th scope="col">Sem8</th> -->
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">COMP</th>
+      <td  class="sem" href=""> <a href="https://drive.google.com/drive/folders/1k9n8Tvr57u-24A-10yG2aNtSKiWYxUdP?usp=sharing">Sem1</a></td>
+      <td  class="sem" href="">  <a href="">Sem3</a></td>
+	  <td class="sem" href=""><a href="">Sem5</a></td>
+	  <td class="sem" href="">  <a href="">Sem7</a></td>
+      <!-- <td class="sem" href="">  <a href="">Sem5</a></td>
+	  <td class="sem" href="">  <a href="">Sem6</a></td>
+	  <td class="sem" href="">  <a href="">Sem7</a></td>
+      <td class="sem" href="">  <a href="">Sem8</a></td> -->
+   
+    </tr>
+    <tr>
+      <th scope="row">IT</th>
+	  <td  class="sem" href=""> <a href="https://drive.google.com/drive/folders/1k9n8Tvr57u-24A-10yG2aNtSKiWYxUdP?usp=sharing">Sem1</a></td>
+      <td  class="sem" href="">  <a href="">Sem3</a></td>
+	  <td class="sem" href=""><a href="">Sem5</a></td>
+	  <td class="sem" href="">  <a href="">Sem7</a></td>
+      <!-- <td class="sem" href="">  <a href="">Sem5</a></td>
+	  <td class="sem" href="">  <a href="">Sem6</a></td>
+	  <td class="sem" href="">  <a href="">Sem7</a></td>
+      <td class="sem" href="">  <a href="">Sem8</a></td> -->
+   
+    </tr>
+    <tr>
+      <th scope="row">EEE</th>
+      <!-- <td colspan="2">Larry the Bird</td> -->
+	  <td  class="sem" href=""> <a href="https://drive.google.com/drive/folders/1k9n8Tvr57u-24A-10yG2aNtSKiWYxUdP?usp=sharing">Sem1</a></td>
+      <td  class="sem" href="">  <a href="">Sem3</a></td>
+	  <td class="sem" href=""><a href="">Sem5</a></td>
+	  <td class="sem" href="">  <a href="">Sem7</a></td>
+      <!-- <td class="sem" href="">  <a href="">Sem5</a></td>
+	  <td class="sem" href="">  <a href="">Sem6</a></td>
+	  <td class="sem" href="">  <a href="">Sem7</a></td>
+      <td class="sem" href="">  <a href="">Sem8</a></td> -->
+   
+	</tr>
+	<tr>
+      <th scope="row">E&TC</th>
+	  <td  class="sem" href=""> <a href="https://drive.google.com/drive/folders/1k9n8Tvr57u-24A-10yG2aNtSKiWYxUdP?usp=sharing">Sem1</a></td>
+      <td  class="sem" href="">  <a href="">Sem3</a></td>
+	  <td class="sem" href=""><a href="">Sem5</a></td>
+	  <td class="sem" href="">  <a href="">Sem7</a></td>
+      <!-- <td class="sem" href="">  <a href="">Sem5</a></td>
+	  <td class="sem" href="">  <a href="">Sem6</a></td>
+	  <td class="sem" href="">  <a href="">Sem7</a></td>
+      <td class="sem" href="">  <a href="">Sem8</a></td> -->
+   
+    </tr>
+    <tr>
+      <th scope="row">MECH</th>
+	  <td  class="sem" href=""> <a href="https://drive.google.com/drive/folders/1k9n8Tvr57u-24A-10yG2aNtSKiWYxUdP?usp=sharing">Sem1</a></td>
+      <td  class="sem" href="">  <a href="">Sem3</a></td>
+	  <td class="sem" href=""><a href="">Sem5</a></td>
+	  <td class="sem" href="">  <a href="">Sem7</a></td>
+      <!-- <td class="sem" href="">  <a href="">Sem5</a></td>
+	  <td class="sem" href="">  <a href="">Sem6</a></td>
+	  <td class="sem" href="">  <a href="">Sem7</a></td>
+      <td class="sem" href="">  <a href="">Sem8</a></td> -->
+   
+    </tr>
+    
+  </tbody>
+</table>
 				
 			
 		</div>
 		</div>
-	</div>
+	<!-- </div> -->
 	
 
 
