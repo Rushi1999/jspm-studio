@@ -35,7 +35,7 @@
 								<li class="dropdown"><a href="\jspm-studio\index.php">Home<span class="nav-subtitle">OUR World</span></a></li>
 								<li class="dropdown"> <a href="\jspm-studio\team.php">Our Team<span class="nav-subtitle">Meet us!</span></a></li>
 								<li class="dropdown"> <a href="http://www.jspm.edu.in/" target="_blank">Jspmpedia<span class="nav-subtitle">our personal blog</span></a></li>
-								<li class="dropdown"> <a href="\jspm-studio\update\index.php" target="_blank">Updates<span class="nav-subtitle">Our News Land</span></a></li>
+								<li class="dropdown"> <a href="index.php" target="_blank">Updates<span class="nav-subtitle">Our News Land</span></a></li>
 								<li><a href="\jspm-studio\contact.php">CONTACT<span class="nav-subtitle">say us hi</span></a></li>
 							</ul>
 						</div>
