@@ -67,15 +67,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-	<link rel="stylesheet" href="mystyle.css" />
+	
+	<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
+		<title>JspmStudio</title>
+		<link href="favicon.ico" type="image/x-icon" rel="shortcut icon">
+		<link href="assets/css/master.css" rel="stylesheet">
+		<link href="team/css/main.css" rel="stylesheet">
+		<link href="team/css/lightbox.css" rel="stylesheet">
+		<link href="team/css/responsive.css" rel="stylesheet">
+		<link href="assets/plugins/switcher/css/switcher.css" rel="stylesheet" >
+		<link rel="stylesheet" href="mystyle.css" />
 	<link rel="stylesheet" type="text/css" href="bootstrap-4.3.1-dist/css/bootstrap.css"/>
 </head>
 <body>
 	<?php
 		include("Navbar.php");
 	?>
-	<div class="container mt-3">
+	<div class="container mt-3 adminpage" style="margin-top: 20rem !important;">
 		<h3> Hello,  <?php echo "".$username;  ?>  </h3>
 	</div>
 	<div class="container mt-4" style="height: 100vh">
@@ -94,7 +103,7 @@
 				<div class="col-md-4">
 					<h6>Add material</h6>
 					<div class="bg-secondary">
-						<form method="post" class="embed-responsive p-3" enctype="multipart/form-data">
+						<form method="post" class="embed-responsive p-3" style="height: 100%;" enctype="multipart/form-data">
 							<input type="text" class="form-control" name="title" placeholder="Add title">
 							<textarea name="description" class="mt-4 form-control" placeholder="Add description"></textarea>
 							<input type="file" class="mt-4 form-control" name="file1" required="" required="">

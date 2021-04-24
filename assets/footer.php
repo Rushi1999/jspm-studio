@@ -25,12 +25,12 @@ In short - We aim to make the life of every JSPMian simpler & turn these four ye
 				  <section class="footer-section">
 					<h3 class="footer-title">QUICK LINKS</h3>
 					<ul class="footer-list list-unstyled">
-					  <li class="footer-list__item"><a class="footer-list__link" href="update/category/notices/">Notices</a></li>
+					  <li class="footer-list__item"><a class="footer-list__link" href="update/Notices.php">Notices</a></li>
 					  <li class="footer-list__item"><a class="footer-list__link" href="update/category/datesheets/">Datesheets</a></li>
 					  <li class="footer-list__item"><a class="footer-list__link" href="update/category/results/">Results</a></li>
 					  <li class="footer-list__item"><a class="footer-list__link" href="update/Notes.php">Notes</a></li>
-					  <li class="footer-list__item"><a class="footer-list__link" href="update/category/exampapers/">Exam Papers</a></li>
-					  <li class="footer-list__item"><a class="footer-list__link" href="update/category/syllabus/">Syllabus</a></li>
+					  <li class="footer-list__item"><a class="footer-list__link" href="update/ExamPaper.php">Exam Papers</a></li>
+					  <li class="footer-list__item"><a class="footer-list__link" href="update/Sysllabus.php">Syllabus</a></li>
 					  <li class="footer-list__item"><a class="footer-list__link" href="update/category/disclaimer/">Disclaimer</a></li>
 					  <li class="footer-list__item"><a class="footer-list__link" href="update/category/copyright/">Copyright</a></li>
 					</ul>

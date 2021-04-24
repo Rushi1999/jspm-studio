@@ -2,18 +2,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-	<link rel="stylesheet" href="mystyle.css" />
+<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
+		<title>JspmStudio</title>
+		<link href="favicon.ico" type="image/x-icon" rel="shortcut icon">
+		<link href="assets/css/master.css" rel="stylesheet">
+		<link href="team/css/main.css" rel="stylesheet">
+		<link href="team/css/lightbox.css" rel="stylesheet">
+		<link href="team/css/responsive.css" rel="stylesheet">
+		<link href="assets/plugins/switcher/css/switcher.css" rel="stylesheet" >
+		<link rel="stylesheet" href="mystyle.css" />
 	<link rel="stylesheet" type="text/css" href="bootstrap-4.3.1-dist/css/bootstrap.css"/>
 </head>
+<style>
+.center-update{
+padding-top: 10rem !important;
+}
+</style>
 <body>
 	<?php
 		include("Navbar.php");
 	?>
-	<div class="row" style="height: 100vh;width: 100%">
+	<div class="row " style="height: 100vh;width: 100%">
 
-		<div class="container mt-4">
-			<h3>Notices board</h3>
+		<div class="container mt-4 center-update">
+			<h3 class="ui-title-inner">Notices board</h3>
 			<?php
 				include("connect_db.php");
 				$query="select * from notice";
@@ -26,7 +39,7 @@
 			<div class="col-md-12">
 				<div class="card mt-4 p-2">
 					<div class="title">
-						<h4 class="card-title"><?php echo "".$rows['title'] ?></h4>
+						<h5 class="card-title ui-title-inner"><?php echo "".$rows['title'] ?></h5>
 						<p><?php echo "".$rows['description'] ?></p>
 						<small class="d-flex justify-content-end"><?php echo "".$rows['post_by'] ?></small>
 					</div>

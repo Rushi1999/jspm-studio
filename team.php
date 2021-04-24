@@ -400,19 +400,19 @@
 							</div>
 							<script>
 								var modal31 = document.getElementById('myModal31');
-								// Get the button that opens the modal
+								
 								var btn31 = document.getElementById("myBtn31");
-								// Get the element that closes the modal
+								
 								var span31 = document.getElementsByClassName("31")[0];
-								// When the user clicks the button, open the modal
+							
 								btn31.onclick = function() {
 										modal31.style.display = "block";
 									}
-									// closing the modal
+								
 								span31.onclick = function() {
 										modal31.style.display = "none";
 									}
-									// When the user clicks anywhere outside of the modal, close it
+								
 								window.onclick = function(event) {
 									if (event.target == modal31) {
 										modal31.style.display = "none";
@@ -421,7 +421,7 @@
 							</script>
 							
 						</div>
-						<!-- end layout-theme -->
+						
 					</div>
 				</section>
 <script>
