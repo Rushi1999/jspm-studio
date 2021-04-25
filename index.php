@@ -147,7 +147,7 @@
 									<div id="updates" class="posts-wrap"> </div>
 									<div style="text-align: center;">
 										<!-- <button class="btn btn-effect btn-info" onclick="window.location='update/update.php';">View all updates</button> -->
-									    <button class="btn btn-effect btn-info" onclick="window.location='jspm-studio/search-page.php?query=hum';">View all updates</button>
+									    <button class="btn btn-effect btn-info" onclick="window.location='update/index.php';">View all updates</button>
 									
 									</div>
 								</div>
