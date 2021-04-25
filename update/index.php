@@ -44,7 +44,7 @@
 }
 @media (min-width:320px) and (max-width:428px) {
 	.footer, .wow{
-margin-top: 13rem !important;
+margin-top: 44rem !important;
   }
 }
     </style>
