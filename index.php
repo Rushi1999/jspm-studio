@@ -97,14 +97,14 @@
 													<div class="alert alert-danger"> <strong>No query!</strong> Please type in a query to search. </div>
 													<?php } ?>
 
-													<!-- <input class="form-control notesearch" type="text" name="query" placeholder="Notes or Mcq"> -->
+													<input class="form-control notesearch" type="text" name="query" placeholder="Search for..">
 													
-													<select name="branch" class="form-control notesearch">
+													<!-- <select id="NorQ" name="branch" class="form-control notesearch">
 														<option value="coe">NOTES</option>
 														<option value="it">MCQ</option>
-													</select>
+													</select> -->
 
-													<select name="branch" class="form-control notesearch">
+													<select name="branch" id="DEPT" class="form-control notesearch">
 														<option value="coe">COMP</option>
 														<option value="it">IT</option>
 														<option value="ece">E&TC</option>
@@ -113,7 +113,7 @@
 														<option value="mpae">FE</option>
 													</select>
 
-													<select name="sem" class="form-control notesearch">
+													<select name="sem" id="SEM" class="form-control notesearch">
 														<option value="1">1st Semester</option>
 														<option value="2">2nd Semester</option>
 														<option value="3">3rd Semester</option>
@@ -125,7 +125,7 @@
 													</select>
 												</div>
 												<div class="find-course__wrap-btn">
-													<button class="btn btn-effect btn-info">SEARCH</button>
+													<button id="drive_button" class="btn btn-effect btn-info">SEARCH</button>
 												</div>
 											</form>
 										</section>
@@ -174,3 +174,113 @@
 				<?php include ( "assets/footer.php");?> 
 		</body>
 </html>
+<script type="text/javascript" src="team/js/jquery.js"></script>
+<script type="text/javascript" src="team/js/jquery.isotope.min.js"></script>
+<script type="text/javascript" src="team/js/lightbox.min.js"></script>
+<script type="text/javascript" src="team/js/main.js"></script>
+<script type="text/javascript" src="team/js/jquery.lazyload.js"></script>
+<script>
+$(document).ready(function() {
+$("#drive_button").onclick(function(){
+var Notes_MCQ = $("#NorQ").val();
+var Dept = $("#DEPT").val();
+var Sem = $("#SEM").val();
+if(Notes_MCQ!=NULL && Dept!=NULL && Sem !=NULL){
+if(Dept = "coe"){
+if(Sem="1")
+window.location='https://drive.google.com/drive/folders/1MwVCbvSxagmYYsyH-Lz_XQLvf4Di1fzp?usp=sharing';
+else if(Sem="2")
+window.location='https://drive.google.com/drive/folders/1fa-8WJ0TUqMtOuEuqOq7gJhLc68p8S86?usp=sharing';
+else if(Sem="3")
+window.location='https://drive.google.com/drive/folders/1pixhD5sRPCzEfSl2pt5l4VJzqDvy5_fD?usp=sharing';
+else if(Sem="4")
+window.location='https://drive.google.com/drive/folders/1loUTN9YhE30BLSMT4HzFUPm3IV27s2yN?usp=sharing';
+else if(Sem="5")
+window.location='https://drive.google.com/drive/folders/1FKu6bCVqDgH8NzgCJZpf2xGkzwLz8IbV?usp=sharing';
+else if(Sem="6")
+window.location='https://drive.google.com/drive/folders/1BzeAuaM3qud4bnB8WG82tN40Ga1L7Jzt?usp=sharing';
+else if(Sem="7")
+window.location='https://drive.google.com/drive/folders/1sylea_1jA6ufpPfTzh3SGpiYck93eCFH?usp=sharing';
+else if(Sem="8")
+window.location='https://drive.google.com/drive/folders/1eV5_kHLftilzPhbzFWavDN-4LOb0BSyg?usp=sharing';
+}
+
+if(Dept = "it"){
+if(Sem="1")
+window.location='https://drive.google.com/drive/folders/1zZb8btsjnoB36ql9Zucm791pbNyxIO8S?usp=sharing';
+else if(Sem="2")
+window.location='https://drive.google.com/drive/folders/1pnJdoTA3nvBV3PtwsD--c9J8oyBCYvsw?usp=sharing';
+else if(Sem="3")
+window.location='https://drive.google.com/drive/folders/1VO1EtNmpVUAjXxwJezTwoUf9sF5xZeTN?usp=sharing';
+else if(Sem="4")
+window.location='https://drive.google.com/drive/folders/1CrRFycIdlcRGQM-EGdfJ4j8U849zVwcT?usp=sharing';
+else if(Sem="5")
+window.location='https://drive.google.com/drive/folders/16V2bD5Ev1l7xSLYXhmnex-q1VzMPNS78?usp=sharing';
+else if(Sem="6")
+window.location='https://drive.google.com/drive/folders/1yZV81450R23AxUpL47u7TFIK_fFTrIHv?usp=sharing';
+else if(Sem="7")
+window.location='https://drive.google.com/drive/folders/1QKP-TVe5CTFOShD_re2fJIfzJNUv9vnN?usp=sharing';
+else if(Sem="8")
+window.location='https://drive.google.com/drive/folders/1R2UxG3GbioKS54Tww0AIBOV75y1Rkr7b?usp=sharing';
+}
+
+if(Dept = "ece"){
+if(Sem="1")
+window.location='https://drive.google.com/drive/folders/1kZVXbYXeDOVgASoQa_JzZPFveKjEPfaT?usp=sharing';
+else if(Sem="2")
+window.location='https://drive.google.com/drive/folders/1_ts9nuCkxngkdVqM3KPe3TnseVv7Vu9q?usp=sharing';
+else if(Sem="3")
+window.location='https://drive.google.com/drive/folders/1psoUGlQPzyB6xywnZlqrbRCN8IMBrZ7G?usp=sharing';
+else if(Sem="4")
+window.location='https://drive.google.com/drive/folders/1L1E8QUSOqUDnsLkbWuU8OapSDNtxsoxi?usp=sharing';
+else if(Sem="5")
+window.location='https://drive.google.com/drive/folders/1g2B2Oj0nAavy3dGfhhweXbxWF-NI1goP?usp=sharing';
+else if(Sem="6")
+window.location='https://drive.google.com/drive/folders/19iTx3yvMiHZL8qP-M9jIABFqdKgnK4eI?usp=sharing';
+else if(Sem="7")
+window.location='https://drive.google.com/drive/folders/1FQGj7NOXceMU7V0scLEhsaf-P_rJwLky?usp=sharing';
+else if(Sem="8")
+window.location='https://drive.google.com/drive/folders/1khuW4r2jaydsWj6XX8DqD0Jea4B-feg0?usp=sharing';
+}
+
+if(Dept = "ice"){
+if(Sem="1")
+window.location='https://drive.google.com/drive/folders/1kJdKPxa4QNe_0jSKg8JHrN2yp2VHPZAX?usp=sharing';
+else if(Sem="2")
+window.location='https://drive.google.com/drive/folders/1DKnoyu2fR8S0sQ-SbR_0fZJJZHdWHO7L?usp=sharing';
+else if(Sem="3")
+window.location='https://drive.google.com/drive/folders/1G2glp5nTJlLL1P-Zd6DBQcef-x0f3OPj?usp=sharing';
+else if(Sem="4")
+window.location='https://drive.google.com/drive/folders/1G2glp5nTJlLL1P-Zd6DBQcef-x0f3OPj?usp=sharing';
+else if(Sem="5")
+window.location='https://drive.google.com/drive/folders/121NRU84zvan6Rsl_ME-lUT0OIDf8liN2?usp=sharing';
+else if(Sem="6")
+window.location='https://drive.google.com/drive/folders/1IkR1laGtVjAf-9vbQLQi-5bPDJx2fjOC?usp=sharing';
+else if(Sem="7")
+window.location='https://drive.google.com/drive/folders/1WWjxEJ1M4gqljemlY8cU0JMh9_NvfeSF?usp=sharing';
+else if(Sem="8")
+window.location='https://drive.google.com/drive/folders/1klmIp4QOjw2siQDSuvhUiSWCHxm43jM0?usp=sharing';
+}
+
+if(Dept = "mpae"){
+if(Sem="1")
+window.location='https://drive.google.com/drive/folders/13lHNpE91CWJoBqjzASH6QYAMj0655Nhf?usp=sharing';
+else if(Sem="2")
+window.location='https://drive.google.com/drive/folders/1o42KvfhVIK82ZNKmPuJ073NXCC3RZ5NQ?usp=sharing';
+else if(Sem="3")
+window.location='https://drive.google.com/drive/folders/1pzo1l9I6i5hJFXwq8rIhYrLXa22hED1Z?usp=sharing';
+else if(Sem="4")
+window.location='https://drive.google.com/drive/folders/1vSfGQiVSAdgO6kq9BSMoT1kaFiG3nMUt?usp=sharing';
+else if(Sem="5")
+window.location='https://drive.google.com/drive/folders/1KjCvFp6dkC7rJrOOK6PM3ybzCvViCn6p?usp=sharing';
+else if(Sem="6")
+window.location='https://drive.google.com/drive/folders/1BkYxpEIlycutbDyQ4U_E6p6Z-M_7v7LO?usp=sharing';
+else if(Sem="7")
+window.location='https://drive.google.com/drive/folders/1EstLHhqxDdsCH7psuR5igbZJgDH0V1QR?usp=sharing';
+else if(Sem="8")
+window.location='https://drive.google.com/drive/folders/1nxGc4nisqMqmdZT1Ql0ueQkmMD5uxF3x?usp=sharing';
+}
+}
+});
+});
+</script>

@@ -13,23 +13,23 @@ function GetScore($content, $query, $scoreAddition = 10) {
 	return $score;
 }
 
-function getXMLData() {
-	if (isset($_GET["branch"])) $branch = $_GET["branch"];
-	else $branch == "COMP"; //most students in Comp, so most probable.
-	if ($branch == "COMP") $xmllink = 'http://test.collegespace.in/pad-notes/flashmo_228_news_list.xml';
-	else if ($branch == "IT") $xmllink = 'http://test.collegespace.in/pad-notes/flashmo_231_news_list.xml';
-	else if ($branch == "E&TC") $xmllink = 'http://test.collegespace.in/pad-notes/flashmo_229_news_list.xml';
-	else if ($branch == "EEE") $xmllink = 'http://test.collegespace.in/pad-notes/flashmo_230_news_list.xml';
-	else if ($branch == "MECH") $xmllink = 'http://test.collegespace.in/pad-notes/flashmo_232_news_list.xml';
-	else if ($branch == "FE") $xmllink = 'http://test.collegespace.in/pad-notes/flashmo_233_news_list.xml';
-	// else {
-	// 	$xmllink = 'http://test.collegespace.in/pad-notes/flashmo_230_news_list.xml';
-	// 	$branch = "ice";
-	// }
-	$doc = new DOMDocument();
-	$doc - > load($xmllink);
-	return $doc;
-}
+// function getXMLData() {
+// 	if (isset($_GET["branch"])) $branch = $_GET["branch"];
+// 	else $branch == "COMP"; 
+// 	if ($branch == "COMP") $xmllink = 'http://test.collegespace.in/pad-notes/flashmo_228_news_list.xml';
+// 	else if ($branch == "IT") $xmllink = 'http://test.collegespace.in/pad-notes/flashmo_231_news_list.xml';
+// 	else if ($branch == "E&TC") $xmllink = 'http://test.collegespace.in/pad-notes/flashmo_229_news_list.xml';
+// 	else if ($branch == "EEE") $xmllink = 'http://test.collegespace.in/pad-notes/flashmo_230_news_list.xml';
+// 	else if ($branch == "MECH") $xmllink = 'http://test.collegespace.in/pad-notes/flashmo_232_news_list.xml';
+// 	else if ($branch == "FE") $xmllink = 'http://test.collegespace.in/pad-notes/flashmo_233_news_list.xml';
+// 	else {
+// 		$xmllink = 'http://test.collegespace.in/pad-notes/flashmo_230_news_list.xml';
+// 		$branch = "ice";
+// 	}
+// 	$doc = new DOMDocument();
+// 	$doc - > load($xmllink);
+// 	return $doc;
+// }
 
 function getNotesList($doc, $semNum) {
 	$dump = $doc - > textContent;
@@ -39,7 +39,7 @@ function getNotesList($doc, $semNum) {
 	$paraDump = explode("<p align = 'justify'>", $semDump);
 	$aDump = explode("</p>", $paraDump[1])[0];
 	$alist = explode('</a>', $aDump);
-	//print_r($alist);
+	
 	$list = array();
 	foreach($alist as $a) {
 		$a = trim($a);
@@ -49,7 +49,7 @@ function getNotesList($doc, $semNum) {
 			$link = explode("'", $ahref)[1];
 			$name = explode("<", explode(">", $ahref)[1])[0];
 			$list[$name] = $link;
-			//$axml = new SimpleXMLElement($ahref);
+			
 		}
 	}
 	return $list;
