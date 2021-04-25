@@ -32,12 +32,15 @@
 	<div class="container" style="height: 105vh">
 		<div class="row pt-5 center-update">
 			<div class="col-md-6 mt-5">
-				<h3 class="ui-title-inner ">MCQ</h3>
+				<h2 class="ui-title-inner ">MCQ</h2>
 				<p>Handed picked mcq from teachers and students from respected collages and Universities</p>
 				
 			</div>
 		<!-- <div class="col-md-6"> -->
-		
+		</div>
+			<div>
+		<h5 class="ui-title-inner ">EVEN SEM</h5>
+			</div>
 		<table class="table table-bordered" style="width: 100%;">
   <thead>
     <tr>
@@ -119,7 +122,7 @@
 </table>
 
 <div>
-	<h3>Odd sem</h3>
+<h4 class="ui-title-inner ">Odd Sem</h4>
 </div>
 
 <table class="table table-bordered" style="width: 100%;">

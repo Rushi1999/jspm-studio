@@ -42,6 +42,11 @@
 .bg-cont{
 	background-color: white;
 }
+@media (min-width:320px) and (max-width:428px) {
+	.footer, .wow{
+margin-top: 13rem !important;
+  }
+}
     </style>
 <body>
 	<!-- Navbar design HTML code  -->
@@ -55,7 +60,7 @@
 	<div>
 	<div class="adminhome">
 	<div class="container mt-5 mb-5 bg-cont" style="height: 100vh">
-		<div class="row m-5 pt-5" style="padding-top: 10rem !important;">
+		<div class="row m-5 pt-5" >
 			<div class="col-md-7">
 				
 				<table  cellspacing="20" cellpadding="40" width="100%">
