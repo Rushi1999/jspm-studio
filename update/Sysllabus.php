@@ -28,8 +28,8 @@
 	<div class="container mt-5" style="height: 100vh !important">
 		<div class="row mt-5 center-update">
 			<div class="col-md-6 mt-5">
-				<h3 class="ui-title-inner ">Sysllabus</h3>
-				<p>Sysllabus uploaded by teachers and admins</p>
+				<h3 class="ui-title-inner ">Syllabus</h3>
+				<p>Syllabus uploaded by teachers and admins</p>
 				<div></div>
 				<h3>even sem</h3>
 			</div>

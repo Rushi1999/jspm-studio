@@ -29,7 +29,7 @@
 		include("Navbar.php");
 	?>
 	<!-- Body1  -->
-	<div class="container" style="height: 105vh">
+	<div class="container  center-update" style="height: 105vh">
 		<div class="row pt-5 center-update">
 			<div class="col-md-6 mt-5">
 				<h3 class="ui-title-inner ">Notes</h3>

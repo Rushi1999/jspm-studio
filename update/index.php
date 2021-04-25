@@ -42,9 +42,22 @@
 .bg-cont{
 	background-color: white;
 }
-@media (min-width:320px) and (max-width:428px) {
+@media (min-width:320px) and (max-width:576px) {
 	.footer, .wow{
 margin-top: 44rem !important;
+  }
+}
+@media (min-width:576px) and (max-width:767px) {
+	.bg-cont{
+height: 136vh !important;
+  }
+  .footer, .wow{
+margin-top: -3rem !important;
+  }
+}
+@media (min-width:767px) and (max-width:2000px) {
+	.footer, .wow{
+margin-top: -3rem !important;
   }
 }
     </style>
@@ -102,7 +115,7 @@ margin-top: 44rem !important;
 								</th>
 								<th width="100">
 								<a href="Sysllabus.php">
-									<h4 class=" decor decor_mod-a">Sysllabus</h4></a>	
+									<h4 class=" decor decor_mod-a">Syllabus</h4></a>	
 								</th>
 							</tr>
 							<tr>
@@ -111,7 +124,7 @@ margin-top: 44rem !important;
 								</td>
 								<td width="100">
 									
-								<p>	Find the UGC sysllabus of all the subjects</p>
+								<p>	Find the UGC Syllabus of all the subjects</p>
 								</td>
 							</tr>
 							</table>

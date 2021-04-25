@@ -17,15 +17,16 @@
 <style>
 .center-update{
 padding-top: 10rem !important;
+overflow: auto;
 }
 </style>
 <body>
 	<?php
 		include("Navbar.php");
 	?>
-	<div class="row " style="height: 100vh;width: 100%">
+	<div class="row center-update" style="height: 100vh;width: 100%">
 
-		<div class="container mt-4 center-update">
+		<div class="container mt-4 ">
 			<h3 class="ui-title-inner">Notices board</h3>
 			<?php
 				include("connect_db.php");
