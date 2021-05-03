@@ -84,8 +84,17 @@
 	<?php
 		include("Navbar.php");
 	?>
-	<div class="container mt-3 adminpage" style="margin-top: 20rem !important;">
+	<div class="container mt-3 adminpage" style="margin-top: 20rem !important;display:flex;">
 		<h3> Hello,  <?php echo "".$username;  ?>  </h3>
+		<button class="stud-card" style="color: #fff;
+  background: #159;
+  padding: 5px;
+  border: 2px solid #159;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left:88px">
+			<a href="card.html" style="color: white;">Student id</a>
+		</button>
 	</div>
 	<div class="container mt-4" style="height: 100vh">
 			<div class="row">
@@ -98,8 +107,11 @@
 
 							<input type="submit" name="submit_notice" class="mt-4 btn btn-success" name="post_button" value="Broadcast">
 						</form>
+					
 					</div>
+					
 				</div>
+
 				<div class="col-md-4">
 					<h6>Add material</h6>
 					<div class="bg-secondary">

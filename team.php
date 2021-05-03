@@ -35,8 +35,10 @@
 						<div class="posts-wrap">
 							<ul class="portfolio-filter text-center">
 								<!-- <li><a id="leadership" class="btn btn-default active" href="#" data-filter=".leadership">Leadership</a>
+								</li>
+								<li><a id="webdev leadership" class="btn btn-default" href="#" data-filter=".webd">WebDevs Team</a>
 								</li> -->
-								<li><a id="webdev" class="btn btn-default" href="#" data-filter=".webd">WebDevs Team</a>
+								<li><a id="webdev" class="btn btn-default active" href="#" data-filter=".webd">WebDevs Team</a>
 								</li>
 								<li><a id="content" class="btn btn-default" href="#" data-filter=".contentc">Content Collectors</a>
 								</li>
