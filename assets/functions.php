@@ -9,6 +9,7 @@ function PrintHeadMetadata($pageTitle)
 	print("<link href=\"assets/css/master.css\" rel=\"stylesheet\">");
 	print("<link href=\"team/css/main.css\" rel=\"stylesheet\">");
 	print("<link href=\"team/css/lightbox.css\" rel=\"stylesheet\">");
+	print("<link href=\"team/css/company.css\" rel=\"stylesheet\">");
 	print("<link href=\"team/css/responsive.css\" rel=\"stylesheet\">");
 	print("<link href=\"assets/plugins/switcher/css/switcher.css\" rel=\"stylesheet\" id=\"switcher-css\" media=\"all\">");
 	print("<script src=\"assets/plugins/jquery/jquery-1.11.3.min.js\"></script>");

@@ -151,6 +151,26 @@ margin-top: -3rem !important;
 							</tr>
 							</table>
 					</tr>
+					<tr>
+						<table class="mt-5" cellpadding="5"	 width="100%">
+							<tr>
+								<th width="100">
+								<a href="placement.php">	<h4 class=" decor decor_mod-a">Placement Update</h4></a</a>	
+								</th>
+								<th width="100">
+								<a href="ExamPaper.php">	<h4 class=" decor decor_mod-a"> Alumini</h4></a</a>
+								</th>
+							</tr>
+							<tr>
+								<td width="100">
+								<p>	You can check current placement update</p>
+								</td>
+								<td width="100">
+								<p>Our Collage Alumini</p>
+								</td>
+							</tr>
+							</table>
+					</tr>
 				</table>
 			</div>
 			<br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>
