@@ -45,6 +45,7 @@ overflow: auto;
 						<small class="d-flex justify-content-end"><?php echo "".$rows['post_by'] ?></small>
 					</div>
 				</div>
+				<hr>
 			</div>
 			<?php
 			}

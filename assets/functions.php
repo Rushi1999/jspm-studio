@@ -7,6 +7,7 @@ function PrintHeadMetadata($pageTitle)
 	print("<title>$pageTitle</title>");
 	print("<link href=\"favicon.ico\" type=\"image/x-icon\" rel=\"shortcut icon\">");
 	print("<link href=\"assets/css/master.css\" rel=\"stylesheet\">");
+	print("<link href=\"assets/css/theme.css\" rel=\"stylesheet\">");
 	print("<link href=\"team/css/main.css\" rel=\"stylesheet\">");
 	print("<link href=\"team/css/lightbox.css\" rel=\"stylesheet\">");
 	print("<link href=\"team/css/company.css\" rel=\"stylesheet\">");

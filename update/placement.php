@@ -49,7 +49,7 @@ p{
             <div class="row">
                 <div class="col-sm-12">
         
-             <p class="lead font-weight-bold">Placement Updates by Talent Battle!</p>
+             <p class="lead font-weight-bold">Placement Updates by Jspmstudio!</p>
                     <p>
                         We provide off-campus updates, placement preparatory materials and videos and much more on our Whatsapp Groups and Telegram!
                     </p>

@@ -3,7 +3,10 @@
 /* RESPONSIVE CSS */
 /*///////////////////////////////////////////////////////////////////////////////////////////*/
 
-
+.collapsed {
+    margin-right: 27px !important;
+    margin-top: -67px !important;
+}
 
 @media (min-width:992px) {
 	img.header-logo__img {
@@ -41,6 +44,11 @@
 }
 
 
+@media (max-width: 767px){
+.yamm {
+    margin-right: 137px !important;
+  }
+}
 /* 768 x 1024 (Laptop) */
 
 @media (min-width:992px) and (max-width:1199px) {
@@ -200,6 +208,7 @@ img.header-logo__img {
 	.yamm {
 		display: block;
 		margin-top: 0;
+		margin-right: 137px !important;
 	}
 	.yamm .nav {display: block;}
 	.yamm .nav > li {display: block;}

@@ -84,6 +84,22 @@
 													</div>
 												</div>
 											</li>
+											<li class="advantages__item"> <span class="advantages__icon"><i class="fa fa-refresh"></i></span>
+												<div class="advantages__inner">
+													<h3 class="ui-title-inner decor decor_mod-a">Placement Update!</h3>
+													<div class="advantages__info">
+														<p> The placement management software allows colleges to manage the campus placement, Off campus and much more!</p>
+													</div>
+												</div>
+											</li>
+											<li class="advantages__item"> <span class="advantages__icon"><i class="far fa-building"></i></span>
+												<div class="advantages__inner">
+													<h3 class="ui-title-inner decor decor_mod-a">Companies</h3>
+													<div class="advantages__info">
+														<p>Myriad of societies and our experienced faculty make JSPM what it is. Read on to find out about your honorable professors, society events and much more!</p>
+													</div>
+												</div>
+											</li>
 										</ul>
 									</section>
 									</div>

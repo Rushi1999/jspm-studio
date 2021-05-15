@@ -10,6 +10,9 @@
 
 
 /* ======= GLOBAL ======= */
+.header-logo{
+	cursor: pointer;
+}
 #pedia{
     position: relative;
     top: -43px;
@@ -34,7 +37,9 @@ img.pull-right {
 img.pull-left {
 	margin-right: 20px;
 }
-
+.advantages_mod-a .advantages__item:nth-child(5) .icon {
+    color: goldenrod;
+}
 #querytags > span {
   cursor:pointer;
   display:block;
@@ -419,7 +424,7 @@ text-align:-webkit-left;
 }
 .header-inner {
 	float: right;
-	padding-top: 23px;
+	/* padding-top: 23px; */
 	text-align: right;
 	position:relative;
 }
@@ -429,6 +434,7 @@ text-align:-webkit-left;
 	position: relative;
 	float: left;
 	z-index: 100;
+	cursor: pointer;
 }
 .header-logo__img {
 	margin-top: 15px;
